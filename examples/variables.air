@@ -1,0 +1,20 @@
+// Declare "var" variable
+
+var year: int = 2022                
+year = 1989                         // You can do whatever you want with them
+
+// Declare "let" variable
+
+export let person = {                      
+  name: 'Rose',
+  age: 19,
+  interests: ['Math', 'Chemistry'],
+}
+
+person.interests.push('Physics')    // You can change properties
+// person.born = 'London'           // But you can't change the structure of variable
+
+// Declare "const" variable
+const pi = 3.14
+// pi = 2.718                       // YOU CANT CHANGE THE PROPERTIES AT ALL !!!
+
